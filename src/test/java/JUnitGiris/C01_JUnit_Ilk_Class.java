@@ -1,4 +1,4 @@
-package mavenGiris;
+package JUnitGiris;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
@@ -6,7 +6,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.time.Duration;
 
-public class C01_Maven_Ilk_Class {
+public class C01_JUnit_Ilk_Class {
     public static void main(String[] args) {
 
         WebDriverManager.chromedriver().setup();
